@@ -32,7 +32,7 @@ function Chart({ apiBaseUrl }) {
   const [timeRange, setTimeRange] = useState(24); // hours
 
   // Fetch historical data
-  const fetchHistoricalData = async () => {
+  const fetchHistoricalData = useCallback( () => {
     try {
       setLoading(true);
       const response = await axios.get(`${apiBaseUrl}/api/history?hours=${timeRange}`);
@@ -44,7 +44,7 @@ function Chart({ apiBaseUrl }) {
     } finally {
       setLoading(false);
     }
-  };
+  });
 
   // Process data for Chart.js
   const processChartData = () => {
@@ -236,7 +236,7 @@ function Chart({ apiBaseUrl }) {
   // Fetch data on component mount and time range change
   useEffect(() => {
     fetchHistoricalData();
-  }, [timeRange]);
+  }, [fetchHistoricalData]);
 
   // Auto-refresh every 30 seconds
   useEffect(() => {
