@@ -1,0 +1,23 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="#2ecc71"/>
+  
+  <!-- Plant stem -->
+  <path d="M16 28V16" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Main leaf -->
+  <path d="M16 16C16 12 18.5 10 20 8C21 7 21.5 6 21.5 6C21.5 6 21.8 7.2 21 8.5C20.2 9.8 18 11 16 12V16Z" fill="white" opacity="0.9"/>
+  
+  <!-- Second leaf -->
+  <path d="M16 14C16 11 13.5 9.5 12 8C11 7.2 10.5 6.5 10.5 6.5C10.5 6.5 10.2 7.5 11 8.5C11.8 9.5 14 10.5 16 12V14Z" fill="white" opacity="0.8"/>
+  
+  <!-- Care heart symbol (smaller) -->
+  <path d="M22 12C22 11 21.3 10 20.5 10C20.1 10 19.8 10.2 19.6 10.4C19.4 10.2 19.1 10 18.7 10C17.9 10 17.2 11 17.2 12C17.2 13.5 19.6 15 19.6 15S22 13.5 22 12Z" fill="white" opacity="0.9"/>
+  
+  <!-- Water droplet -->
+  <circle cx="12" cy="20" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="20" cy="21" r="1" fill="white" opacity="0.6"/>
+  
+  <!-- Soil base -->
+  <path d="M8 28H24V26C24 25.4 23.6 25 23 25H9C8.4 25 8 25.4 8 26V28Z" fill="white" opacity="0.4"/>
+</svg>
