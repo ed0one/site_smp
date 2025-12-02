@@ -1,18 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { 
-  faTint, 
-  faThermometerHalf, 
-  faWater, 
-  faCog, 
-  faPowerOff,
-  faPlay,
-  faStop,
-  faMoon,
-  faSun,
-  faLeaf
-} from '@fortawesome/free-solid-svg-icons';
 import PlantCareIcon from './components/PlantCareIcon';
 import Dashboard from './components/Dashboard';
 import Settings from './components/Settings';
